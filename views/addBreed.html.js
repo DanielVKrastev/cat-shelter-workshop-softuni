@@ -1,4 +1,4 @@
-export default `<!DOCTYPE html>
+export default () => `<!DOCTYPE html>
 <html lang="en">
 
 <head>
