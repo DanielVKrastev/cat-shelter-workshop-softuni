@@ -1,4 +1,4 @@
-import catHtml from "../cat.html.js";
+import catHtml from '../cat.html.js';
 
 export default (cats) => `<!DOCTYPE html>
 <html lang="en">

@@ -4,10 +4,17 @@
   "description": "The exercise itself will be distributed into several parts each containing more concrete information and guide steps on how to develop the functionality specified below.\r \"Cat Shelter\" is a very simple cat catalog that shows the \"database\" (JSON file) of some cat shelter and everyone (registration is not required) user can be their potential owner. The application will consist of the basic CRUD operations (Create cat, Read cat, Update cat and Delete cat). Each cat has a name, description, image and breed.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "type": "module",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "uuid": "^11.0.4"
+  }
 }
